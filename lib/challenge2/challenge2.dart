@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/services.dart';
 
 
 class Challenge2 extends StatelessWidget {
@@ -36,20 +35,14 @@ class Challenge2 extends StatelessWidget {
                     options: CarouselOptions(
                       height: 150,
                       pauseAutoPlayOnManualNavigate: true,
-                      //pageSnapping: true,
                       pauseAutoPlayOnTouch: true,
                       pauseAutoPlayInFiniteScroll: true,
-
-                      // enableInfiniteScroll: true,
                       reverse: false,
                       autoPlay: true,
-                      // enlargeCenterPage: true,
                       autoPlayInterval: Duration(milliseconds: 3000),
                       autoPlayAnimationDuration: Duration(milliseconds: 3000),
                       autoPlayCurve: Curves.linear,
                       scrollDirection: Axis.horizontal,
-
-                      //viewportFraction: 1.0
                     )
                 ),
                 CarouselSlider(
@@ -69,20 +62,14 @@ class Challenge2 extends StatelessWidget {
                     options: CarouselOptions(
                       height: 150,
                       pauseAutoPlayOnManualNavigate: true,
-                      //pageSnapping: true,
                       pauseAutoPlayOnTouch: true,
                       pauseAutoPlayInFiniteScroll: true,
-
-                      // enableInfiniteScroll: true,
                       reverse: true,
                       autoPlay: true,
-                      // enlargeCenterPage: true,
                       autoPlayInterval: Duration(milliseconds: 3000),
                       autoPlayAnimationDuration: Duration(milliseconds: 3000),
                       autoPlayCurve: Curves.linear,
                       scrollDirection: Axis.horizontal,
-
-                      //viewportFraction: 1.0
                     )
                 ),
                 CarouselSlider(
@@ -102,20 +89,14 @@ class Challenge2 extends StatelessWidget {
                     options: CarouselOptions(
                       height: 150,
                       pauseAutoPlayOnManualNavigate: true,
-                      //pageSnapping: true,
                       pauseAutoPlayOnTouch: true,
                       pauseAutoPlayInFiniteScroll: true,
-
-                      // enableInfiniteScroll: true,
                       reverse: true,
                       autoPlay: true,
-                      // enlargeCenterPage: true,
                       autoPlayInterval: Duration(milliseconds: 2000),
                       autoPlayAnimationDuration: Duration(milliseconds: 2000),
                       autoPlayCurve: Curves.linear,
                       scrollDirection: Axis.horizontal,
-
-                      //viewportFraction: 1.0
                     )
                 ),
                 CarouselSlider(
@@ -135,20 +116,14 @@ class Challenge2 extends StatelessWidget {
                     options: CarouselOptions(
                       height: 150,
                       pauseAutoPlayOnManualNavigate: true,
-                      //pageSnapping: true,
                       pauseAutoPlayOnTouch: true,
                       pauseAutoPlayInFiniteScroll: true,
-
-                      // enableInfiniteScroll: true,
                       reverse: false,
                       autoPlay: true,
-                      // enlargeCenterPage: true,
                       autoPlayInterval: Duration(milliseconds: 2000),
                       autoPlayAnimationDuration: Duration(milliseconds: 2000),
                       autoPlayCurve: Curves.linear,
                       scrollDirection: Axis.horizontal,
-
-                      //viewportFraction: 1.0
                     )
                 ),
                 CarouselSlider(
@@ -168,20 +143,14 @@ class Challenge2 extends StatelessWidget {
                     options: CarouselOptions(
                       height: 150,
                       pauseAutoPlayOnManualNavigate: true,
-                      //pageSnapping: true,
                       pauseAutoPlayOnTouch: true,
                       pauseAutoPlayInFiniteScroll: true,
-
-                      // enableInfiniteScroll: true,
                       reverse: false,
                       autoPlay: true,
-                      // enlargeCenterPage: true,
                       autoPlayInterval: Duration(milliseconds: 3000),
                       autoPlayAnimationDuration: Duration(milliseconds: 3000),
                       autoPlayCurve: Curves.linear,
                       scrollDirection: Axis.horizontal,
-
-                      //viewportFraction: 1.0
                     )
                 ),
 
